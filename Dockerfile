@@ -11,6 +11,6 @@ WORKDIR /var/www/html
 COPY src/ .
 
 # Add execute permission to process_input.py
-RUN chmod +x calculate.py
+RUN chmod +x process.py
 
 EXPOSE 80
